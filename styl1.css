@@ -1,0 +1,73 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    padding-top: 32px;
+    font-weight: bold;
+    width: 15%;
+    float: left;
+    position: fixed;
+    background-color: #6f42c1;
+    height: 1000px;
+    color: white;
+    text-align: center;
+
+
+}
+.links img{
+    width: 35%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.links a{
+    width: 57%;
+    display: block;
+    position: relative;
+    padding: 5px 5px 5px 15px;
+    line-height: 35px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    margin-left: 65px;
+
+
+
+}
+.links a:hover{
+    background-color: #4c2e86;
+    background-blend-mode: darken;
+    text-decoration: none;
+    color: white;
+    border-radius: 9%;
+}
+.active a{
+    color: #2d1850;
+}
+.media a{
+    text-decoration: none;
+    color: #ef3478;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    float: left;
+
+}
+.media{
+    margin-left: 40px;
+}
+.baner{
+    margin-left: 15%;
+    width: 85%;
+    color: white;
+    float: left;
+    height: 200px;
+    line-height: 200px;
+    background-color: #2d1850;
+}
+
