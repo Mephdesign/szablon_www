@@ -38,18 +38,28 @@
     </script>
 </head>
 <body>
+<!--
     <div class="menu">
         <div class="links">
             <h5>Nazwa strony</h5><br>
 
             <img src="images/logo.png" alt="logo strony">
-            <ul>
-            <li class="active"><a href="#"><i class="fas fa-home"></i> Blog Home</a></li>
-                <li><a href="#"><i class="fas fa-file-alt"></i> Blog Post</a></li>
-                <li> <a href="#"><i class="fas fa-file-image"></i> Blog Page</a></li>
-                <li> <a href="#"><i class="fas fa-archive"></i> Blog Archive</a></li>
-                <li> <a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
-            </ul>
+            <nav class="navbar flex-lg-column ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon tog"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item active"><a href="#"><i class="fas fa-home"></i> Blog Home</a></li>
+                        <li class="nav-item"><a href="#"><i class="fas fa-file-alt"></i> Blog Post</a></li>
+                        <li class="nav-item"> <a href="#"><i class="fas fa-file-image"></i> Blog Page</a></li>
+                        <li class="nav-item"> <a href="#"><i class="fas fa-archive"></i> Blog Archive</a></li>
+                        <li class="nav-item"> <a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
         <br><hr><br>
             <div class="media">
@@ -60,8 +70,52 @@
                 <a href="#"><i class="fab fa-codepen fa-fw"></i></a>
             </div>
 
+        </nav>
     </div>
-    <div class="baner">
+    -->
+
+<nav class="navbar fixed-left text-center menu">
+
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <p class="navbar-brand" href="#">Nazwa Strony</p><br>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="links">
+
+        <img src="images/logo.png" alt="logo strony" class="image">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fas fa-home"></i> Blog Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-file-alt"></i> Blog Post</a></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-file-image"></i> Blog Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-archive"></i> Blog Archive</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact Us</a>
+            </li>
+        </ul></div>
+        <hr class="col-xs-12">
+        <div class="media">
+
+        <ul class="navbar-inline">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+        </ul>
+        </div>
+    </div>
+</nav>
+</div>
+    <div class="baner navbar-fixed">
         <img src="images/logo.png" alt="logo strony">
         Tytuł strony
     </div>
