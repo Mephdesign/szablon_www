@@ -1010,7 +1010,7 @@ body,html{
 
     }
     .links{
-        width: 80%;
+        width: 70%;
         float: left;
     }
     .links img {
@@ -1024,10 +1024,10 @@ body,html{
 
     }
     .links a {
-        margin-top: 20px;
+        margin-top: 30px;
         float: left;
-        width: 15%;
-        padding: 5px 5px 5px 10px;
+        width: 17%;
+        padding: 5px 5px 5px 5px;
         text-decoration: none;
         color: white;
         text-align: left;
@@ -1063,10 +1063,10 @@ body,html{
     }
 
     .media {
-        width: 20%;
-        padding: 20px;
+        width: 30%;
+        padding-right: 20px;
         float: right;
-        margin-left: 0px;
+
     }
 
     .baner {
@@ -1075,7 +1075,7 @@ body,html{
         float: left;
         height: 125px;
         line-height: 125px;
-        background-color: #2d1850;
+
         position: fixed;
         font-size: 300%;
         text-align: center;
@@ -1226,7 +1226,7 @@ body,html{
     .links a {
         margin-top: 20px;
         float: left;
-        width: 15%;
+        width: 18%;
         padding: 5px 5px 5px 10px;
         text-decoration: none;
         color: white;
@@ -1263,10 +1263,10 @@ body,html{
     }
 
     .media {
-        width: 30%;
-        padding: 20px;
+        width: 100%;
+        padding: 20px 20px 20px 35%;
 
-        margin-left: 200px;
+
     }
 
     .baner {
@@ -1411,6 +1411,7 @@ body,html{
 
 
     }
+
     .links{
         width: 100%;
         float: left;
@@ -1466,10 +1467,10 @@ body,html{
     }
 
     .media {
-        width: 40%;
-        padding: 20px;
+        width: 100%;
+        padding: 20px 20px 20px 26%;
 
-        margin-left: 100px;
+
     }
 
     .baner {
