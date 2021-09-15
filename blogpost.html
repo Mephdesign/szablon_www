@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styl1.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+
+  <script>
+
+    var i = 3;
+    function onleft(){
+      var slider = document.getElementById("slider");
+      --i;
+
+      if(i==0){
+        i=3;
+        slider.style.backgroundImage = "url(images/slider"+i+".jpg)";
+      }else{
+        slider.style.backgroundImage = "url(images/slider"+i+".jpg)";
+      }
+    }
+    function onright(){
+      var slider = document.getElementById("slider");
+      ++i;
+
+      if(i==4){
+        i=1;
+        slider.style.backgroundImage = "url(images/slider"+i+".jpg)";
+      }else{
+        slider.style.backgroundImage = "url(images/slider"+i+".jpg)";
+      }
+    }
+
+  </script>
+</head>
+<body>
+<!--
+    <div class="menu">
+        <div class="links">
+            <h5>Nazwa strony</h5><br>
+
+            <img src="images/logo.png" alt="logo strony">
+            <nav class="navbar flex-lg-column ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon tog"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item active"><a href="#"><i class="fas fa-home"></i> Blog Home</a></li>
+                        <li class="nav-item"><a href="#"><i class="fas fa-file-alt"></i> Blog Post</a></li>
+                        <li class="nav-item"> <a href="#"><i class="fas fa-file-image"></i> Blog Page</a></li>
+                        <li class="nav-item"> <a href="#"><i class="fas fa-archive"></i> Blog Archive</a></li>
+                        <li class="nav-item"> <a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <br><hr><br>
+            <div class="media">
+                <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                <a href="#"><i class="fab fa-github-alt fa-fw"></i></a>
+                <a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a>
+                <a href="#"><i class="fab fa-codepen fa-fw"></i></a>
+            </div>
+
+        </nav>
+    </div>
+    -->
+<!--------------------------------------------  Phone View  ------------------------------------------------------------ -->
+<div class="fixed-top phone-view">
+  <nav class="navbar text-center menu-phone ">
+
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h2>Nazwa Strony</h2><br>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="links">
+
+        <img src="images/logo.png" alt="logo strony" class="image">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Blog Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blogpost.html"><i class="fas fa-file-alt"></i> Blog Post</a></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-file-image"></i> Blog Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-archive"></i> Blog Archive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact Us</a>
+          </li>
+        </ul><br>
+        <div class="hr"></div><br>
+      </div>
+
+      <div class="media">
+
+        <ul class="navbar-inline">
+          <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="baner ">
+    <img src="images/logo.png" alt="logo strony">
+    Blog Home Page Heading
+  </div>
+</div>
+<!--------------------------------------------  Pc View  ------------------------------------------------------------ -->
+<div class="pc-view">
+  <div class="menu-fill">
+    <nav class="navbar menu-pc fixed-top ">
+      <p class="title">Nazwa Strony</p><br>
+
+      <div class="links">
+        <img src="images/logo.png" alt="logo strony" class="image"><br>
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Blog Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blogpost.html"><i class="fas fa-file-alt"></i> Blog Post</a></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-file-image"></i> Blog Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-archive"></i> Blog Archive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact Us</a>
+          </li>
+        </ul><br>
+        <div class="hr"></div><br>
+      </div>
+
+      <div class="media">
+
+        <ul class="navbar-inline">
+          <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="baner ">
+
+    Blog Home Page Heading
+  </div>
+</div>
+
+
+
+<div class="main">
+  <div class="main-text">
+    <div class="">
+      <small style="color: gray">Published 3 month ago <i class="fas fa-tag"></i> tag   <i class="fas fa-tag"></i> category   <i class="fas fa-comment"></i> 3 comments</small>
+      <br><br><img style="width: 100%" src="images/blog-post-banner.jpg">
+      <p class="text-center" style="font-size: small; color: gray">Image Credit: <a style="color: gray" href="">URL Here</a> </p>
+      <p>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet porttitor leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec bibendum faucibus pretium. Donec convallis massa felis, eget interdum nulla eleifend vitae. Donec vitae congue elit. Nulla interdum semper est quis aliquam. Morbi nec velit enim. Maecenas tempor pulvinar quam sed dictum. Curabitur et ornare ligula, eget facilisis ipsum. Mauris cursus arcu interdum mattis auctor. Ut vel mollis dui. Donec in lectus at purus iaculis lacinia. Aenean lobortis fringilla tellus eu auctor.
+
+      </p>
+
+      <h3><b>Typography</b></h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet porttitor leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
+      <h5><b>Bullet Points:</b></h5>
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetuer.</li>
+          <li>Aenean commodo ligula eget dolor.</li>
+          <li>Aenean massa cum sociis natoque penatibus</li>
+        </ul>
+        <br>
+        <ol>
+          <li>Lorem ipsum dolor sit amet consectetuer.</li>
+          <li>Aenean commodo ligula eget dolor.</li>
+          <li>Aenean massa cum sociis natoque penatibus</li>
+        </ol>
+      <h5><b>Quote Example</b></h5>
+      <br>
+      <figure class="cytat">
+        <blockquote class="blockquote">
+          <p>You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-base creativity.</p>
+          </p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title">John Romero</cite>
+        </figcaption>
+      </figure>
+      <br>
+      <h5><b>Table Example:</b></h5>
+      <br><br><br>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        </tbody>
+      </table><br>
+      <h4><b>Video Example:</b></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet porttitor leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec bibendum faucibus pretium. Donec convallis massa felis, eget interdum nulla eleifend vitae. Donec vitae congue elit. Nulla interdum semper est quis aliquam.</p>
+      <div class="embed-responsive embed-responsive-16by9" >
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/rt-2cxAiPJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <br><br>
+      <div  class="btn-group btn-group-toggle btn-lg btn-block" data-toggle="buttons" style="position: static ">
+        <button style="padding: 15px; width: 50%;float: left; background-color: #6f42c1"  class="btn btn-secondary active"><b><i style="float: left; margin-top: 5px" class="fas fa-long-arrow-alt-left"></i> Previous</b></button>
+        <button style="padding: 15px; width: 50%;float: left; background-color: #6f42c1" class="btn btn-secondary active"><b>Next <i style="float: right; margin-top: 5px" class="fas fa-long-arrow-alt-right"></i></b></button>
+      </div>
+      <br><br><br>
+
+      <h3 class="text-center"><b>3 replies on "Hello world!"</b></h3>
+      <div class="comment">
+          <div class="com-head">
+             <img class="com-img" src="images/profil1.PNG">
+            <h3 class="com-nick"><b><a href="#">A WordPress Commenter</a></b></h3>
+            <small class="com-date">March 25, 2020 at 8:07 pm</small>
+          </div>
+
+          <div class="com-body">
+            <p>Hi, this is a comment<br>To get started with moderating, editing and deleting comments, please visit the Comments screen in the dashboard.<br>Commenter avatars come from <a href="#">Gravatar</a>. </p>
+            <br>
+            <button class="btn" style="background-color: #6f42c1; color: white ">REPLY</button><br><br>
+           </div>
+
+        <div class="com-com">
+          <div class="com-head">
+            <img class="com-img" src="images/noimage.PNG">
+            <h3 class="com-nick"><b><a style="text-decoration: none" href="#">andrew</a></b></h3>
+            <small class="com-date">March 25, 2020 at 8:09 pm</small>
+          </div>
+
+          <div class="com-body">
+            <p>Comment</p>
+            <br>
+            <button class="btn" style="background-color: #6f42c1; color: white ">REPLY</button><small style="margin-left: 20px">BY POST AUTHOR</small>
+          </div>
+
+          </div>
+
+      </div>
+
+      <div class="comment">
+        <div class="com-head">
+          <img class="com-img" src="images/noimage.PNG">
+          <h3 class="com-nick"><b><a style="text-decoration: none" href="#">andrew</a></b></h3>
+          <small class="com-date">March 25, 2020 at 8:09 pm</small>
+        </div>
+
+        <div class="com-body">
+          <p>Comment</p>
+          <br>
+          <button class="btn" style="background-color: #6f42c1; color: white ">REPLY</button><small style="margin-left: 20px">BY POST AUTHOR</small>
+        </div>
+
+      </div>
+    </div>
+    </div>
+</div>
+<div class="footer">
+  <p>strona www 2021</p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
