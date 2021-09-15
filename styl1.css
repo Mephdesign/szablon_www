@@ -102,10 +102,11 @@ body,html{
         text-align: center;
         font-weight: bolder;
         background-image: linear-gradient(to bottom right,#f68e62,#d73784 , #6f42c1);
+        display: block;
     }
 
     .main {
-        padding-top: 125px;
+        padding-top: 85px;
         margin-left: 15%;
         width: 85%;
         float: left;
@@ -209,6 +210,60 @@ body,html{
         float: left;
         text-align: center;
         color: white;
+    }
+
+    .cytat{
+        border-left: 1px solid black;
+        margin-left: 5%;
+
+    }
+    .cytat p{
+        margin-left: 5%;
+        font-size: 135%;
+    }
+    .cytat figcaption{
+        padding-left: 5%;
+        font-size: 120%;
+    }
+    .com-head{
+        width: 100%;
+    }
+    .com-img{
+        padding-right: 15px;
+        height: 100%;
+        width: 10%;
+        float: left;
+    }
+    .com-nick{
+        height: 70%;
+        float: left;
+        width: 80%;
+
+    }
+    .com-nick a{
+        color: #4f4f4f;
+    }
+
+    .com-date{
+        color: gray;
+        height: 30%;
+        float: left;
+    }
+    .com-body{
+        width: 100%;
+        float: left;
+
+    }
+    .com-body a{
+
+        text-decoration: none;
+        color: #ed407e;
+    }
+    .com-com{
+        margin-left: 10%;
+    }
+    .comment{
+        margin-top: 100px;
     }
 }
 
