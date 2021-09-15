@@ -267,6 +267,24 @@ body,html{
         float: left;
         margin: 30px;
     }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
+    }
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -540,6 +558,24 @@ body,html{
         float: left;
         margin: 30px;
     }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
+    }
 }
 /* --------------------------------------------------------------------------------- */
 
@@ -811,6 +847,24 @@ body,html{
         width: 100%;
         float: left;
         margin: 30px;
+    }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
     }
 }
 
@@ -1085,6 +1139,24 @@ body,html{
         float: left;
         margin: 30px;
     }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
+    }
 }
 /* ----------------------------------------------------------------------------------------------- */
 @media all and (min-width:800px) and (max-width: 1000px){
@@ -1357,6 +1429,24 @@ body,html{
         float: left;
         margin: 30px;
     }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
+    }
 }
 /* ----------------------------------------------------------------------------------------------- */
 @media all and (max-width: 799px) and (min-width: 630px){
@@ -1615,6 +1705,24 @@ body,html{
         width: 100%;
         float: left;
         margin: 30px;
+    }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
     }
 }
 /* ----------------------------------------------------------------------------------------------- */
@@ -1880,6 +1988,24 @@ body,html{
         float: left;
         margin: 30px;
     }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
+    }
 }
 /* ----------------------------------------------------------------------------------------------- */
 @media all and (max-width: 499px){
@@ -1993,8 +2119,8 @@ body,html{
 
     .main-text {
         margin-top: 60px;
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .slider {
@@ -2141,5 +2267,23 @@ body,html{
         width: 100%;
         float: left;
         margin: 30px;
+    }
+    .post{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 250px;
+
+        padding: 20px;
+    }
+    .post img{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .post-body{
+        width: 70%;
+        float: left;
+        margin-left: 5%;
     }
 }
