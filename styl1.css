@@ -110,7 +110,7 @@ body,html{
         margin-left: 15%;
         width: 85%;
         float: left;
-        min-height: 1050px;
+        min-height: 877px;
 
 
     }
@@ -195,6 +195,7 @@ body,html{
         float: left;
         border: 1px solid gray;
         padding: 10px;
+        margin-bottom: 50px;
     }
 
     .posts:last-child {
@@ -401,6 +402,10 @@ body,html{
         color: white;
 
     }
+    .main-text form{
+        margin-top: 150px;
+    }
+
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -518,7 +523,7 @@ body,html{
         margin-left: 15%;
         width: 85%;
         float: left;
-        min-height: 1050px;
+        min-height: 877px;
 
 
     }
@@ -603,6 +608,7 @@ body,html{
         float: left;
         border: 1px solid gray;
         padding: 10px;
+        margin-bottom: 50px;
     }
 
     .posts:last-child {
@@ -924,7 +930,7 @@ body,html{
         margin-left: 15%;
         width: 85%;
         float: left;
-        min-height: 1050px;
+        min-height: 877px;
 
 
     }
@@ -1009,6 +1015,7 @@ body,html{
         float: left;
         border: 1px solid gray;
         padding: 10px;
+        margin-bottom: 50px;
     }
 
     .posts:last-child {
@@ -1331,7 +1338,7 @@ body,html{
         margin-left: 15%;
         width: 85%;
         float: left;
-        min-height: 925px;
+        min-height: 877px;
 
 
     }
@@ -1416,6 +1423,7 @@ body,html{
         float: left;
         border: 1px solid gray;
         padding: 10px;
+        margin-bottom: 50px;
     }
 
     .posts:last-child {
@@ -1739,7 +1747,7 @@ body,html{
         margin-left: 15%;
         width: 85%;
         float: left;
-        min-height: 925px;
+        min-height: 877px;
 
 
     }
@@ -1824,6 +1832,7 @@ body,html{
         float: left;
         border: 1px solid gray;
         padding: 10px;
+        margin-bottom: 50px;
     }
 
     .posts:last-child {
@@ -2127,7 +2136,7 @@ body,html{
         padding-top: 150px;
         width: 100%;
         float: left;
-        min-height: 975px;
+        min-height: 877px;
 
 
     }
@@ -2217,6 +2226,7 @@ body,html{
         float: left;
         border: 1px solid gray;
         padding: 10px;
+        margin-bottom: 50px;
     }
 
     .posts:last-child {
@@ -2530,7 +2540,7 @@ body,html{
         margin-top: 110px;
         width: 100%;
         float: left;
-        min-height: 750px;
+        min-height: 765px;
 
 
     }
@@ -2819,6 +2829,16 @@ body,html{
         color: white;
 
     }
+    .cont-btn{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .main-text form{
+        margin-top: 100px;
+    }
 }
 /* ----------------------------------------------------------------------------------------------- */
 @media all and (max-width: 499px){
@@ -2925,7 +2945,7 @@ body,html{
         padding-top: 105px;
         width: 100%;
         float: left;
-        min-height: 825px;
+        min-height: 875px;
 
 
     }
