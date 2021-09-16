@@ -349,6 +349,58 @@ body,html{
         height: 100%;
         float: left;
     }
+    .aboutwork{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        height: 1000px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 900px;
+    }
+    .portf-head{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 600px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -704,6 +756,58 @@ body,html{
         height: 100%;
         float: left;
     }
+    .aboutwork{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        height: 1000px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 900px;
+    }
+    .portf-head{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 600px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
 }
 /* --------------------------------------------------------------------------------- */
 
@@ -1057,6 +1161,58 @@ body,html{
         width: 50%;
         height: 100%;
         float: left;
+    }
+    .aboutwork{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        height: 1000px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 900px;
+    }
+    .portf-head{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 600px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
     }
 }
 
@@ -1412,6 +1568,58 @@ body,html{
         width: 50%;
         height: 100%;
         float: left;
+    }
+    .aboutwork{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        height: 1000px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 900px;
+    }
+    .portf-head{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 600px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
     }
 }
 
@@ -1769,6 +1977,58 @@ body,html{
         height: 100%;
         float: left;
     }
+    .aboutwork{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        height: 800px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 800px;
+    }
+    .portf-head{
+
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 600px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 170px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
 }
 /* ----------------------------------------------------------------------------------------------- */
 @media all and (max-width: 799px) and (min-width: 630px){
@@ -2109,6 +2369,58 @@ body,html{
         width: 50%;
         height: 100%;
         float: left;
+    }
+    .aboutwork{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        height: 850px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 800px;
+    }
+    .portf-head{
+
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 600px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 180px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
     }
 }
 /* ----------------------------------------------------------------------------------------------- */
@@ -2456,6 +2768,57 @@ body,html{
         height: 100%;
         float: left;
     }
+    .aboutwork{
+        margin-top: 150px;
+        width: 60%;
+        margin-left: 20%;
+        height: 750px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 800px;
+    }
+    .portf-head{
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 600px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 180px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
 }
 /* ----------------------------------------------------------------------------------------------- */
 @media all and (max-width: 499px){
@@ -2799,5 +3162,57 @@ body,html{
         width: 50%;
         height: 100%;
         float: left;
+    }
+    .aboutwork{
+        margin-top: 100px;
+        width: 60%;
+        margin-left: 20%;
+        height: 700px;
+        text-align: center;
+
+    }
+    .aboutwork img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .aboutwork h3{
+        margin-top: 70px;
+    }
+    .aboutwork button{
+        margin-top: 20px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
+    }
+    .portfolio{
+        width: 100%;
+        height: 700px;
+    }
+    .portf-head{
+
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .portf-body{
+        margin-top: 30px;
+        width: 100%;
+        float: left;
+        height: 500px;
+        text-align: center;
+    }
+    .portf-body img{
+        float: left;
+        width: 25%;
+        height: 160px;
+        margin-top: 20px;
+    }
+    .portfolio button{
+        margin-top: 50px;
+        background-color: #6f42c1;
+        padding: 15px 40px 15px 40px;
+        color: white;
+
     }
 }
